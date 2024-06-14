@@ -23,25 +23,6 @@ Created for Practicum USA Software Engineering Bootcamp. This project is my firs
 [jest]: https://img.shields.io/badge/jest-C21325?style=for-the-badge&logo=jest
 [jest-url]: https://jestjs.io/
 
-<div align="center">
-  <h3 align="center">WTWR (What to Wear?): Back End</h3>
-
-  <p align="center">
-    Creating a server for the front-end WTWR application.
-    <br />
-    <br />
-</div>
-
-## About The Project
-
-Project features include:
-
-- User registration
-- Authorization with middleware
-- Authentication with JSON web tokens
-
-### Built With
-
 [![JavaScript][js]][js-url]
 [![Node][nodejs]][nodejs-url]
 [![Express][express]][express-url]
