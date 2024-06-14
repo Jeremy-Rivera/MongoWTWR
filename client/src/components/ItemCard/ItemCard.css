@@ -1,0 +1,78 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 328px;
+  width: 328px;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__title {
+  font-family: "CabinetGrotesk-Regular", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 16px;
+  color: #00000099;
+  padding: 2px 12px;
+  border-radius: 4px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.card__image {
+  z-index: 0;
+  margin-top: -65px;
+  border-radius: 16px;
+  width: 323px;
+  height: 326px;
+  object-fit: cover;
+}
+
+.card__like-btn {
+  background-image: url(../../images/unliked.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+  margin-left: 10px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.card__like-btn_liked {
+  background-image: url(../../images/liked.png);  
+  background-color: transparent;
+  background-repeat: no-repeat;  
+  border: none;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+  margin-left: 10px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.card__like-btn_hidden {
+  display: none;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card__like-btn:hover, .card__like-btn_liked:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 475px) {
+  .card {
+    height: 295px;
+    width: 295px;
+  }
+}
