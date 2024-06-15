@@ -16,7 +16,7 @@ const app = express();
 app.use(cors({ origin: "*" }));
 
 mongoose.connect(
-  "mongodb://127.0.0.1:27017/wtwr_db",
+  "mongodb+srv://fangman09:3AoLcFfNHu6kPme1@wtwrdb.huynmpk.mongodb.net/",
   (res) => {
     console.log("connected to DB", res);
   },
