@@ -1,4 +1,5 @@
-# WTWR (What to Wear?)
+# WTWR (What to Wear?) 
+# Instance @ http://100.26.146.230/ currently is down because of Free Tier usage. Can restart upon request (6/20/24))
 
 Simple weather app created with React to help users decide what to wear based on the current weather.
 
